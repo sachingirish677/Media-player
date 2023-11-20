@@ -1,0 +1,421 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0B0C10;
+}
+*{
+    color: #66FCF1;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #0B0C10;
+    width: 100%;
+    height: 4rem;
+    z-index: 1000;
+    /* top: 1rem; */
+}
+nav > i{
+    display:inline-block;
+    /* top:-20px; */
+    left: 10px;
+    height: 20px;
+    background-color: #66FCF1;
+    border-radius: 50%;
+    position: relative;
+}
+nav h3{
+    top:-15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1 rem;
+    font-weight: lighter;
+    position: relative;
+    left:-275px;
+}
+#favourites{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top:-15px;
+}
+#favourites a{
+    border: 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color:#66FCF1;
+    position: relative;
+    left:-600px;
+    transition: 0.1s ease-out;
+
+} 
+#favourites a:hover{
+    font-size:larger;
+    color: white;
+    font-weight: lighter;
+}
+#Search{
+    display: inline-block;
+    position: relative;
+    left:-250px;
+    top:20px;
+    color:#66FCF1;
+}
+#Search ::placeholder{
+    position: relative;
+    left: 60px;
+} 
+#mag{
+    height: 10px;
+    left: 600px;
+    color: #66FCF1;
+    position: relative;
+    display: inline-block;
+
+}
+#ss{
+    position: relative;
+    display: inline-block;
+    left: -120px;
+    outline: none;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+
+}
+#Search input{
+    position: relative;
+    display: inline-block;
+    top: -2px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#mic{
+    position: relative;
+    top: -9px;
+    left: -50%;
+    padding: 10px 7px;
+    background-color: transparent;
+}
+#notf{
+    background-color: transparent;
+    top: -37px;
+    position: relative;
+}
+#profile{
+    display: inline-block;
+    position:absolute;
+    left:1190px;
+    top:4px;
+    border-radius:70% ;
+}
+    
+#profile img{
+    position: relative;
+    top: 2px;   
+    max-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* intro */
+#intro{
+    height: 20rem;
+    width: 90%;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+#weekimg{
+    position: relative;
+    height:270px;
+    width: 100%;
+    /* background-color:yellow; */
+}
+#imgintro{
+    position: relative;
+    top: 100px;
+    height:100%;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+#title h2{
+    /* background-color: yellow;  */
+    position: relative;
+    left: 50px;
+    height: 40px;
+     top: 90px;
+}
+#detail{
+    /* background-color: red; */
+    height: 125px;
+    width: 100%;
+    position: relative;
+    top: 135px;
+    left: -40px;
+ 
+} 
+#followers{
+    /* background-color: blue; */
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: -80px;
+    top: 110px;
+}
+#plybtn{
+    /* background-color: violet; */
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 260px;
+    /* left: -400px; */
+}
+#ply{
+    position: relative;
+    top: 280px;
+    left: -520px;
+    height: 35px;
+    width: 100px;
+}
+.fa-solid{
+    /* position: relative; */
+    top: -140px;
+    left: 250px;
+    color: gray;
+
+}
+#ply button{
+    width: 100px;
+    background-color:none;
+    border-color: #66FCF1 ;
+    background: transparent;
+}
+#flw{
+    /* background-color: greenyellow; */
+    position: relative;
+    top: 275px;
+    left: -260PX;
+    width: 200px;
+    height: 30px;
+}
+#container1{
+    display: inline-block;
+}
+#similar{
+    display: inline-block;
+    position:absolute;
+    /* background-color: brown; */
+    width:28%;
+    left: 73%;
+    top: 15%;
+
+}
+#sim h3{
+    position: relative;
+    top: 30px;
+}
+#view{
+    position: relative;
+    left: 80%;
+    color: grey;
+}
+#simi{
+    top: 25px;
+}
+#simi img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 15px;
+}
+#simi h4{
+    position: relative;
+    left: 20%;
+    top: -58px;
+}
+#simi p{
+    position: relative;
+    left: 20%;
+    font-size: xx-small;
+    color: grey;
+    top: -75px;
+}
+#simi i{
+    position: relative;
+    color: white;
+}
+#time{
+    position: relative;
+    left: 68%;
+    top: -40px;
+}
+#simi1{
+    position: relative;
+    top: -96px;
+    /* background-color: white; */
+}
+#simi1 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 15px;
+}
+#simi1 h4{
+    position: relative;
+    left: 20%;
+    top: -58px;
+}
+#simi1 p{
+    position: relative;
+    left: 20%;
+    font-size: xx-small;
+    color: grey;
+    top: -75px;
+}
+#simi1 i{
+    position: relative;
+    color: white;
+}
+#time1{
+    position: relative;
+    left: 68%;
+    top: -40px;
+}
+#simi2{
+    position: relative;
+    top: -186px;
+}
+#simi2 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 15px;
+}
+#simi2 h4{
+    position: relative;
+    left: 20%;
+    top: -58px;
+}
+#simi2 p{
+    position: relative;
+    left: 20%;
+    font-size: xx-small;
+    color: grey;
+    top: -75px;
+}
+#simi2 i{
+    position: relative;
+    color: white;
+}
+#time2{
+    position: relative;
+    left: 68%;
+    top: -40px;
+}
+#Recent{
+    /* background-color: brown; */
+    width:28%;
+    left: 73%;
+    top: 380px;
+    position:absolute;
+}
+.songs img{
+    height: 30px;
+    width: 30px;
+  }
+  .s1{
+    position: relative;
+    top: 60px;
+  }
+  .s1 h5{
+    color:#66FCF1;
+    display: inline-block;
+    position: relative;
+    height: 1px;
+    top: -0.5cm;
+    left: 0.5rem;
+  }
+  .s1 p{
+    position: relative;
+    display: inline-block;
+    color: #C5C6C7;
+    font-size: 10px;
+    left:-1.2cm;  
+    margin-bottom: 2rem; 
+  }
+  .songs{
+    position: relative;
+    top: -4rem;
+    /* overflow: auto; */
+  }
+  .fa-regular{
+    color: white;
+    position: relative;
+    left: 7rem;
+  }
+  .s1 a i{
+    color:#66FCF1;
+  }
+.s1 a:focus i{
+    color: red;
+}
+#container3{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    top: 50px;
+}
+#songss{
+    /* background-color: yellow; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.ss1{
+    display: flex;
+    background-color: rgb(10, 10, 28);
+    height: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.ss1 img{
+    height: 30px;
+    position: relative;
+    left:30px;
+    width: 50px;
+    top: 8px;
+}
+.ss1 p{
+    color: grey;
+    position: relative;
+    left: 15px;
+    top: -5px;
+}
+.ss1 h4{
+    position: relative;
+    font-size: small;
+    left: 65px;
+    top: -10px;
+}
+#artist{
+    position: relative;
+    font-size:x-small;
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+.ss1 i{
+    z-index: 1000px;
+    color: yellow;
+}
